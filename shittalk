@@ -1,7 +1,10 @@
+local Library = {}
+
+function Library:CreateMain()	
 plr = game.Players.LocalPlayer
 mouse = plr:GetMouse()
 mouse.KeyDown:connect(function(key)
-    if key == _G.KeybindShitTalk then
+    if key == "n" then
         local talkmacro = {}
  
         function talkmacro:Create(text)	
@@ -13,4 +16,6 @@ mouse.KeyDown:connect(function(key)
 
         return talkmacro;
     end
-end)
+    end)
+    return Library;
+end
