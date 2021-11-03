@@ -1,4 +1,4 @@
-local ezlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/debug420/Ez-Hub/master/Modules/EzLib.lua"))();
+local ezlib = loadstring(game:HttpGet("https://pastebin.com/raw/VhCjbf42"))();
 local mainGUI = ezlib.create("My Script");
 local tab1 = mainGUI.newTab("Tab 1");
 local tab2 = mainGUI.newTab("Tab 2");
