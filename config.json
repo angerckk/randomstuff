@@ -1,11 +1,11 @@
 {
     "NewsData": [
-        [1, "Headshot.me is now back! Thank you for your wait. Created By Anger and Luku"]
+        [1, "Headshot.me is now open! Thank you for waiting. Created By Luku and Anger."]
     ],
     "StatusData": {
-        "Headshot.me": "Online",
-        "Headshot.me Launcher": "Offline",
-        "Universal": "Online"
+        "EzHub": "Online",
+        "EzAPI": "Online",
+        "EzLauncher": "Online"
     },
     "LatestVersion": "https://raw.githubusercontent.com/debug420/Ez-Hub/master/EzHub.lua",
     "Themes": {
