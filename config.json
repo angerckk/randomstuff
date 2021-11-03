@@ -1,0 +1,34 @@
+{
+    "NewsData": [
+        [1, "Headshot.me is now back! Thank you for your wait. Created By Anger and Luku"]
+    ],
+    "StatusData": {
+        "Headshot.me": "Online",
+        "Headshot.me Launcher": "Offline",
+        "Universal": "Online"
+    },
+    "LatestVersion": "https://raw.githubusercontent.com/angerckk/headshot.me/main/version4.1",
+    "Themes": {
+        "Default": {
+            "ThemeIndex": 1,
+            "Primary": [41, 53, 68],
+            "Secondary": [35, 47, 62],
+            "Tertiary": [28, 41, 56],
+            "Quaternary": [18, 98, 159]
+        },
+        "Dark": {
+            "ThemeIndex": 2,
+            "Primary": [25, 25, 25],
+            "Secondary": [30, 30, 30],
+            "Tertiary": [35, 35, 35],
+            "Quaternary": [40, 40, 40]
+        },
+        "Tangy": {
+            "ThemeIndex": 3,
+            "Primary": [47, 55, 65],
+            "Secondary": [60, 92, 125],
+            "Tertiary": [40, 40, 40],
+            "Quaternary": [90, 165, 173]
+        }
+    }
+}
