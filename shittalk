@@ -1,0 +1,16 @@
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+    if key == _G.KeybindShitTalk then
+        local talkmacro = {}
+ 
+        function talkmacro:Create(text)	
+
+            game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text, 'All')
+            wait(.6)
+
+        end
+
+        return talkmacro;
+    end
+end)
