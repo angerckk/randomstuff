@@ -1,21 +1,12 @@
 local Library = {}
 
-function Library:CreateMain()	
-plr = game.Players.LocalPlayer
-mouse = plr:GetMouse()
-mouse.KeyDown:connect(function(key)
-    if key == _G.Keybind then
-        local talkmacro = {}
  
-        function talkmacro:Create(text)	
-
-            game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(text, 'All')
-            wait(.6)
-
-        end
-
-        return talkmacro;
+function Library:Create(hi)	
+ 
+ 
+ 
+ 
+            game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(hi, 'All')
+            wait(.5)
     end
-    end)
-    return Library;
-end
+return Library;
